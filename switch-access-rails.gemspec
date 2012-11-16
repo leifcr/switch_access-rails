@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'nestedsortabletree/rails/version'
+require 'switch_access/rails/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'nestedsortabletree-rails'
-  s.version     = Nestedsortabletree::Rails::VERSION
+  s.name        = 'switch-access-rails'
+  s.version     = SwitchAccess::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'Rails 3.2 integration Jquery Switch access.'
   s.description = 'Integrates jquery switch access plugin into rails apps.'
