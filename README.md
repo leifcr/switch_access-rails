@@ -1,15 +1,15 @@
-Rails 3.2 Integration for jQuery switch-access
+Rails 3.2 Integration for jQuery switch_access
 ==============================================
 
-The `switch-access-rails` gem integrates the [jQuery Switch Access](http://leifcr.github.com/switch-access) plugin with the Rails 3.2 asset pipeline.
+The `switch_access-rails` gem integrates the [jQuery Switch Access](http://leifcr.github.com/switch_access) plugin with the Rails 3.2 asset pipeline.
 
 
 Instructions
 ------------
 
-**1. Add `switch-access-rails` to your Gemfile**
+**1. Add `switch_access-rails` to your Gemfile**
 
-    gem 'switch-access-rails'
+    gem 'switch_access-rails'
 
 **2. Run `bundle install`.**
 
@@ -20,9 +20,9 @@ Add to your application.js:
 _jQuery_ is only needed if you haven't included them already
 
     //= require jquery 
-    //= require switch-access
+    //= require switch_access
 
-See http://leifcr.github.com/switch-access for usage.
+See http://leifcr.github.com/switch_access for usage.
 
 License
 -------

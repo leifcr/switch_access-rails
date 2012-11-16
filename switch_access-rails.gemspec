@@ -3,12 +3,12 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'switch_access/rails/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'switch-access-rails'
+  s.name        = 'switch_access-rails'
   s.version     = SwitchAccess::Rails::VERSION
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'Rails 3.2 integration Jquery Switch access.'
   s.description = 'Integrates jquery switch access plugin into rails apps.'
-  s.homepage    = 'https://github.com/leifcr/switch-access-rails'
+  s.homepage    = 'https://github.com/leifcr/switch_access-rails'
   s.files       = Dir['README.md', 'LICENSE', 'Rakefile', 'lib/**/*', 'vendor/**/*']
   s.authors     = ['Leif Ringstad']
   s.email       = 'leifcr@gmail.com'
