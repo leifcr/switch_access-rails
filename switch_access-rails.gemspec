@@ -14,9 +14,9 @@ Gem::Specification.new do |s|
   s.email       = 'leifcr@gmail.com'
 
   s.add_dependency 'actionpack',    '~> 3.2.0'
-  s.add_dependency 'jquery-rails',  '~> 2.1.1'
-  s.add_dependency 'coffee-rails',  '~> 3.2.0'
+  s.add_dependency 'jquery-rails',  '~> 2.1.4'
+  s.add_dependency 'coffee-rails',  '~> 3.2.2'
 
-  s.add_development_dependency 'rake', '0.9.2'
+  s.add_development_dependency 'rake', '~> 10.0.2'
   s.require_paths = ["lib"]
 end

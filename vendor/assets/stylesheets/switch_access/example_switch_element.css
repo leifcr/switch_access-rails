@@ -1,0 +1,14 @@
+[class*="switch-element"].current {
+  background-color: #ddd;
+  border-color: #656065;
+}
+
+[class*="switch-element"].activate {
+  background-color: #99f;
+  border-color: #99f;
+}
+
+[class*="switch-element"] {
+  border:#999 solid 2px;
+  border-radius: 5px;
+}

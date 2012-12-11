@@ -1,0 +1,14 @@
+.switch-highlight {
+  background-color: #eed;
+}
+
+.highlighter.current {
+  border: solid #1cc 5px;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.highlighter.activate {
+  border-color: red;
+  background-color: #dda;
+}
