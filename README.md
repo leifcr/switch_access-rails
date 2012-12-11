@@ -113,7 +113,7 @@ Second, set debug to true, and a log4javascript Appender/console should show up.
 If you have a div with id set to "logger" the appender/console will be created inside that div.
 
 ## License
-This GEM is under the GPL license. See LICENSE.GPL for details. For commercial usage, please contact leifcr@gmail.com
+This GEM is dual licensed under the GPL license and a commercial license. See LICENSE and LICENSE.GPL for details. For commercial usage, please contact leifcr@gmail.com
 
 ## Contact
 Feel free to contact me at @leifcr (twitter).
