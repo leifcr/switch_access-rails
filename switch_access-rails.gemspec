@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Rails 3.2 integration Jquery Switch access.'
   s.description = 'Integrates jquery switch access plugin into rails apps.'
   s.homepage    = 'https://github.com/leifcr/switch_access-rails'
-  s.files       = Dir['README.md', 'LICENSE', 'Rakefile', 'lib/**/*', 'vendor/**/*']
+  s.files       = Dir['README.md', 'LICENSE', 'Rakefile', 'lib/**/*', 'vendor/**/*', 'switch_access-rails.gemspec']
   s.authors     = ['Leif Ringstad']
   s.email       = 'leifcr@gmail.com'
 
