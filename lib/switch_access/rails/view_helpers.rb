@@ -37,9 +37,9 @@ module SwitchAccess
       #
       def sw_element_end_group
         ret = sw_element_sci().end_group()
-        if (ret < 0)
-          sw_element_fini()
-        end
+        # if (ret < 0)
+        #   sw_element_fini()
+        # end
         ret
       end
 
@@ -80,27 +80,29 @@ module SwitchAccess
         
         def begin_group
           @parent_next_element_id = @next_element_id + 1
-          @next_element_id = 1
-          @level += 1
+          @next_element_id = 0
+          @level += 1            
           "#{@options[:element_class_name]}#{@parent_next_element_id}"
         end
         
         def end_group
           @level -= 1
           @next_element_id = @parent_next_element_id
+          nil
         end
 
         #
         # Get the next switch element class
         #
         def next_element_class
-          "#{@options[:element_class_name]}#{increase_next_id()}"
+          "#{@options[:element_class_name]}#{increase_next_id()}"            
         end
         #
         # Increase the switch element id and return it
         #
-        def increase_next_id
-          @next_element_id += 1
+        def increase_next_id          
+          @next_element_id = @next_element_id + 1
+          @next_element_id            
         end
       end # class SwitchElements
 
