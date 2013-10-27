@@ -3,7 +3,7 @@ Switch Access for webpages
 (c) 2012-2013 Leif Ringstad
 Dual-licensed under GPL or commercial license (LICENSE and LICENSE.GPL)
 Source: http://github.com/leifcr/switch_access
-v 1.1.9
+v 1.1.10
 ###
 
 SwitchAccessCommon =
@@ -1002,10 +1002,12 @@ class SwitchAccessElement
           left:   "offset().left"
           bottom: "offset().bottom"
           right:  "offset().right"
-          outerwidth:  "outerWidth(false)"
-          outerheight: "outerHeight(false)"
+          width:  "outerWidth(false)"
+          height: "outerHeight(false)"
           }
-        callback: (->@callbackForResize????)
+        callback: (=>
+          @callbackForResize()
+          )
         })
 
   ###
